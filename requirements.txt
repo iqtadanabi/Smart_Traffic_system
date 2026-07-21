@@ -1,0 +1,6 @@
+PyQt5>=5.15
+matplotlib>=3.7
+numpy>=1.24
+pandas>=2.0
+google-genai>=0.1.1
+pymupdf>=1.22.0
