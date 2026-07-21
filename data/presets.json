@@ -1,0 +1,46 @@
+{
+    "scenarios": {
+        "Light": {
+            "description": "Low traffic — suburban intersection during off-peak hours",
+            "arrival_rates": {
+                "north": 3,
+                "south": 2,
+                "east": 3,
+                "west": 4
+            },
+            "duration_ticks": 200,
+            "emergency_probability": 0.005
+        },
+        "Moderate": {
+            "description": "Medium traffic — urban intersection during normal hours",
+            "arrival_rates": {
+                "north": 8,
+                "south": 7,
+                "east": 6,
+                "west": 9
+            },
+            "duration_ticks": 300,
+            "emergency_probability": 0.015
+        },
+        "Heavy": {
+            "description": "High traffic — downtown intersection during rush hour",
+            "arrival_rates": {
+                "north": 16,
+                "south": 14,
+                "east": 18,
+                "west": 15
+            },
+            "duration_ticks": 400,
+            "emergency_probability": 0.03
+        }
+    },
+    "constraints": {
+        "min_green_seconds": 8,
+        "yellow_seconds": 3,
+        "all_red_seconds": 1,
+        "pedestrian_window_seconds": 10,
+        "pedestrian_cycle_interval": 4,
+        "emergency_multiplier": 3.0,
+        "phase_switch_threshold": 1.5
+    }
+}
