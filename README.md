@@ -21,8 +21,6 @@ A Python desktop application with a visual UI that simulates a **Smart Traffic S
 - **Setup Info** -- problem formulation dialog detailing system inputs, outputs, and constraints
 - **Status Indicator Badge** -- prominent colored state indicator (IDLE, READY, SIMULATING, LOADING, ERROR)
 
----git remote set-url origin https://github.com/Aqsaazizwagan/TrafficControlSystem_6ED3CE.git
-
 ## Quick Start
 
 ### 1. Install Dependencies
