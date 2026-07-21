@@ -301,7 +301,6 @@ QTabBar::tab:selected {{
 }}
 """
 
-
 # ────────────────────────────────────────────────────────────
 # Intersection Canvas (QGraphicsView)
 # ────────────────────────────────────────────────────────────
@@ -1138,6 +1137,7 @@ class ExplanationPanel(QWidget):
             self.factors_table.setItem(i, 3, QTableWidgetItem("-"))
         self.explanation_text.clear()
         self.chat_display.clear()
+
 
 
 # ────────────────────────────────────────────────────────────
